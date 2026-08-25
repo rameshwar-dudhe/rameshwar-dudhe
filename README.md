@@ -12,9 +12,9 @@
 ## Hi, I'm Rameshwar
 
 DevOps Engineer with **3.7 years** building and running Kubernetes platforms — cluster
-provisioning, GitOps delivery, CI/CD, and observability. Mostly self-hosted and
-bare-metal, driven end to end by Helm, Ansible and Terraform rather than clicked
-together in a console.
+provisioning, GitOps delivery, CI/CD, and observability. Across managed control planes
+(EKS, GKE), enterprise platforms (OpenShift, vSphere) and bare metal, driven end to end
+by Helm, Ansible and Terraform rather than clicked together in a console.
 
 What I care about is the part most tutorials skip: **what happens when the deploy
 reports success and the cluster is still broken.** My repos ship the runbook and the
@@ -23,7 +23,7 @@ need at 2am.
 
 ```yaml
 role:      DevOps / Platform Engineer
-focus:     Kubernetes platform engineering, IaC, GitOps, observability
+focus:     Kubernetes platform engineering, IaC, GitOps, observability, AI on K8s
 approach:  version-pinned · idempotent · reproducible · documented
 currently: deepening SRE practice — reliability, incident response, platform UX
 open_to:   DevOps · Platform Engineering · SRE
@@ -33,21 +33,29 @@ open_to:   DevOps · Platform Engineering · SRE
 
 ## Toolbox
 
-**Container platform**
+**Container platform & orchestration**
 
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![OpenShift](https://img.shields.io/badge/OpenShift-EE0000?style=flat-square&logo=redhatopenshift&logoColor=white)
 ![Helm](https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white)
 ![Kustomize](https://img.shields.io/badge/Kustomize-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
 ![Istio](https://img.shields.io/badge/Istio-466BB0?style=flat-square&logo=istio&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![containerd](https://img.shields.io/badge/containerd-575757?style=flat-square&logo=containerd&logoColor=white)
 
+**Cloud & virtualization**
+
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
+![Amazon EKS](https://img.shields.io/badge/Amazon%20EKS-FF9900?style=flat-square&logo=amazoneks&logoColor=white)
+![Google GKE](https://img.shields.io/badge/Google%20GKE-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
+![Red Hat](https://img.shields.io/badge/Red%20Hat-EE0000?style=flat-square&logo=redhat&logoColor=white)
+![VMware vSphere](https://img.shields.io/badge/VMware%20vSphere-607078?style=flat-square&logo=vmware&logoColor=white)
+
 **Infrastructure as code**
 
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
 ![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white)
 ![Kubespray](https://img.shields.io/badge/Kubespray-0F1689?style=flat-square)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
 
 **CI/CD & GitOps**
 
@@ -56,12 +64,20 @@ open_to:   DevOps · Platform Engineering · SRE
 ![CircleCI](https://img.shields.io/badge/CircleCI-343434?style=flat-square&logo=circleci&logoColor=white)
 ![Bazel](https://img.shields.io/badge/Bazel-43A047?style=flat-square&logo=bazel&logoColor=white)
 
-**Observability**
+**Observability & APM**
 
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
 ![Loki](https://img.shields.io/badge/Loki-F5A800?style=flat-square&logo=grafana&logoColor=white)
 ![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-000000?style=flat-square&logo=opentelemetry&logoColor=white)
+![Datadog](https://img.shields.io/badge/Datadog-632CA6?style=flat-square&logo=datadog&logoColor=white)
+![Dynatrace](https://img.shields.io/badge/Dynatrace-1496FF?style=flat-square&logo=dynatrace&logoColor=white)
+![New Relic](https://img.shields.io/badge/New%20Relic-1CE783?style=flat-square&logo=newrelic&logoColor=black)
+
+**AI engineering**
+
+![Generative AI](https://img.shields.io/badge/Generative%20AI-412991?style=flat-square&logo=openai&logoColor=white)
+![Agentic AI](https://img.shields.io/badge/Agentic%20AI-8B5CF6?style=flat-square&logo=probot&logoColor=white)
 
 **Systems & data**
 
