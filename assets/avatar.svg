@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="RD monogram avatar">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"   stop-color="#16202c"/>
+      <stop offset="55%"  stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#0a1a24"/>
+    </linearGradient>
+    <linearGradient id="arc" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"   stop-color="#326CE5"/>
+      <stop offset="100%" stop-color="#2dd4bf"/>
+    </linearGradient>
+    <linearGradient id="ink" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#cfe0ee"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="512" height="512" fill="url(#bg)"/>
+
+  <!-- accent ring: reads as a clean arc even at 40px -->
+  <circle cx="256" cy="256" r="214" fill="none" stroke="#1e2a38" stroke-width="14"/>
+  <circle cx="256" cy="256" r="214" fill="none" stroke="url(#arc)" stroke-width="14"
+          stroke-linecap="round" stroke-dasharray="700 645" transform="rotate(-58 256 256)"/>
+
+  <!-- node accents on the ring -->
+  <circle cx="256" cy="42"  r="13" fill="#326CE5"/>
+  <circle cx="437" cy="360" r="10" fill="#2dd4bf"/>
+
+  <!-- monogram -->
+  <text x="256" y="258"
+        font-family="Segoe UI, Helvetica Neue, Arial, sans-serif"
+        font-size="216" font-weight="700" letter-spacing="-6"
+        fill="url(#ink)" text-anchor="middle" dominant-baseline="central">RD</text>
+
+  <!-- underline tying it to the banner -->
+  <rect x="188" y="372" width="136" height="9" rx="4.5" fill="url(#arc)"/>
+</svg>
