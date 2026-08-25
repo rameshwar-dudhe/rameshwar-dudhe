@@ -177,8 +177,12 @@ Bazel-built CI pipelines.
 ## Reach me
 
 <p align="center">
-  <a href="mailto:rndudhe1808@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"></a>
+  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=rndudhe1808@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"></a>
   <a href="https://github.com/rameshwar-dudhe"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"></a>
+</p>
+
+<p align="center">
+  <code>rndudhe1808@gmail.com</code>
 </p>
 
 <p align="center"><sub>Open to DevOps, Platform Engineering and SRE roles.</sub></p>
