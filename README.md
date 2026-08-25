@@ -1,7 +1,7 @@
 <img src="./assets/banner.svg" alt="Rameshwar Dudhe — DevOps & Platform Engineer" width="100%">
 
 <p align="center">
-  <a href="https://github.com/rameshwar-dudhe?tab=repositories"><img alt="Projects" src="https://img.shields.io/badge/Projects-6-326CE5?style=for-the-badge&logo=github&logoColor=white"></a>
+  <a href="https://github.com/rameshwar-dudhe?tab=repositories"><img alt="Projects" src="https://img.shields.io/badge/Projects-7-326CE5?style=for-the-badge&logo=github&logoColor=white"></a>
   <img alt="Experience" src="https://img.shields.io/badge/DevOps-3.7%20years-2dd4bf?style=for-the-badge">
   <img alt="Focus" src="https://img.shields.io/badge/Focus-Platform%20%26%20SRE-8b5cf6?style=for-the-badge">
   <img alt="Open to work" src="https://img.shields.io/badge/Open%20to-DevOps%20%7C%20Platform%20%7C%20SRE-22c55e?style=for-the-badge">
@@ -115,6 +115,18 @@ open_to:   DevOps · Platform Engineering · SRE
 ---
 
 ## Featured work
+
+### [devsecops-pipeline](https://github.com/rameshwar-dudhe/devsecops-pipeline)
+![CI](https://github.com/rameshwar-dudhe/devsecops-pipeline/actions/workflows/ci.yml/badge.svg)
+
+Container to Kubernetes with the security gates **actually enforced**, not just
+reported. GitHub Actions runs Trivy over filesystem and image, generates a
+CycloneDX SBOM, and gates the build on CRITICAL/HIGH. Conftest enforces
+**11 OPA/Rego rules** against rendered manifests, and a deliberately insecure
+fixture in the repo proves those rules bite. Secrets come from **Vault** via the
+External Secrets Operator using Kubernetes auth — nothing sensitive in git. The
+image is a `scratch` base with a static Go binary, non-root, read-only rootfs,
+all capabilities dropped.
 
 ### [kube-flow](https://github.com/rameshwar-dudhe/kube-flow)
 Hybrid **Helm + Kustomize** deployment of Kubeflow 26.03.1 on bare-metal Kubernetes —
